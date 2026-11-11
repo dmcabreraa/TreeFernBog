@@ -1,0 +1,783 @@
+> mca_bench(res_mca) # Función para calcular la inercia ajustada de Benzécri sobre un objeto FactoMineR MCA
+      Autovalor_Bruto Pct_Bruto Pct_Ajustado_Benzecri
+dim 1       0.3104163  6.842511              36.55719
+dim 2       0.2439001  5.376292              21.53126
+dim 3       0.2158910  4.758888              16.38712
+dim 4       0.1959335  4.318964              13.14949
+dim 5       0.1908046  4.205907              12.37494
+
+> res.hcpc$desc.axes
+
+Link between the cluster variable and the quantitative variables
+================================================================
+           Eta2      P-value
+Dim 1 0.9229836 1.256833e-38
+Dim 2 0.8750683 4.254147e-31
+Dim 5 0.7796480 2.679513e-22
+Dim 4 0.7589570 6.521351e-21
+Dim 3 0.7521450 1.755452e-20
+
+Description of each cluster by quantitative variables
+=====================================================
+$`1`
+         v.test Mean in category  Overall mean sd in category Overall sd      p.value  n
+Dim 2  2.722943        0.1743356  8.050896e-18      0.1023943  0.4938624 6.470327e-03 34
+Dim 1 -7.672384       -0.5541714 -5.399883e-17      0.1662009  0.5571502 1.688288e-14 34
+
+$`2`
+         v.test Mean in category  Overall mean sd in category Overall sd      p.value  n
+Dim 4  3.802701        0.3633638 -1.170104e-17      0.3056930  0.4426438 1.431271e-04 17
+Dim 1  1.979289        0.2380546 -5.399883e-17      0.1488942  0.5571502 4.778345e-02 17
+Dim 2 -2.824986       -0.3011739  8.050896e-18      0.1462535  0.4938624 4.728266e-03 17
+Dim 3 -2.975377       -0.2984382  2.975718e-17      0.1314419  0.4646407 2.926289e-03 17
+Dim 5 -4.676469       -0.4409685 -1.688575e-17      0.1861034  0.4368118 2.918565e-06 17
+
+$`3`
+         v.test Mean in category  Overall mean sd in category Overall sd      p.value  n
+Dim 1  2.631402        0.3572235 -5.399883e-17      0.1080854  0.5571502 8.503341e-03 14
+Dim 5  2.251786        0.2396636 -1.688575e-17      0.2656342  0.4368118 2.433580e-02 14
+Dim 3 -3.759777       -0.4256572  2.975718e-17      0.2810887  0.4646407 1.700650e-04 14
+Dim 4 -5.127922       -0.5530653 -1.170104e-17      0.2465880  0.4426438 2.929571e-07 14
+
+$`4`
+         v.test Mean in category  Overall mean sd in category Overall sd      p.value n
+Dim 3  4.579638        0.6714387  2.975718e-17      0.4890774  0.4646407 4.657811e-06 9
+Dim 5  3.187840        0.4393886 -1.688575e-17      0.3543656  0.4368118 1.433400e-03 9
+Dim 1  2.884011        0.5070224 -5.399883e-17      0.1805395  0.5571502 3.926449e-03 9
+Dim 4  2.057887        0.2874311 -1.170104e-17      0.2386754  0.4426438 3.960103e-02 9
+Dim 2 -3.699772       -0.5765525  8.050896e-18      0.1625717  0.4938624 2.157930e-04 9
+
+$`5`
+         v.test Mean in category  Overall mean sd in category Overall sd      p.value n
+Dim 3  4.040839        1.3189712  2.975718e-17     0.43521861  0.4646407 5.326022e-05 2
+Dim 1  3.272796        1.2809660 -5.399883e-17     0.19562956  0.5571502 1.064895e-03 2
+Dim 2  2.848868        0.9883817  8.050896e-18     0.17174187  0.4938624 4.387510e-03 2
+Dim 4 -3.236679       -1.0064690 -1.170104e-17     0.07353279  0.4426438 1.209295e-03 2
+Dim 5 -4.737147       -1.4536429 -1.688575e-17     0.34461765  0.4368118 2.167477e-06 2
+
+$`6`
+        v.test Mean in category  Overall mean sd in category Overall sd      p.value n
+Dim 2 6.077602        2.1085536  8.050896e-18    0.368227104  0.4938624 1.219931e-09 2
+Dim 4 3.422003        1.0640968 -1.170104e-17    0.007299147  0.4426438 6.216168e-04 2
+Dim 1 3.409107        1.3343182 -5.399883e-17    0.087338739  0.5571502 6.517580e-04 2
+Dim 5 2.797629        0.8584816 -1.688575e-17    0.253037530  0.4368118 5.147918e-03 2
+
+> res.hcpc$desc.var
+
+Link between the cluster variable and the categorical variables (chi-square test)
+=================================================================================
+                                    p.value df
+Rizoma_Consistencia            3.583449e-35 20
+Parafisos_presencia            8.782314e-30 15
+Esporangios_organizacion       2.166467e-28 10
+Rizoma_Proteccion_externa      7.004629e-25 15
+Esporangio_agrupacion_forma    8.989258e-25 25
+Rizoma_Altura_epigea_clase     1.765049e-16 25
+Rizoma_Anatomia_estela         4.535201e-16 15
+Peciolo_Estipulas              2.198214e-15  5
+Indusio_presencia              4.428617e-14 10
+Rizoma_Ramificacion_patron     2.097734e-12 15
+Esporangio_agrupacion_posicion 5.792994e-12 40
+Lamina_Division_tipo           6.756080e-11 50
+Parafisos_longitud             7.598279e-11 25
+Rizoma_Meristelas_n            4.372360e-10 10
+Rizoma_Orientacion_espacial    9.078866e-09 15
+Peciolo_Haces_vasculares_n     3.319727e-08 15
+Peciolo_Espinas_tipo           3.960396e-08 20
+Lamina_Pinna_apical_forma      5.173568e-07 25
+Peciolo_Indumento_tipo         7.465263e-07 40
+Indusio_forma                  1.185955e-06 35
+Parafisos_color                1.284970e-06 70
+Lamina_Color_foliar            1.298808e-06 25
+Rizoma_posicion                1.800649e-06  5
+Esporangios_Tipo_hoja          2.750269e-06 10
+Habitat                        3.361117e-06  5
+Rizoma_simetria                4.467619e-06  5
+Lamina_Textura_tipo            3.013668e-05 35
+Rizoma_Diametro_clase          5.688063e-05 10
+Raquis_Indumento_tipo          2.958529e-04 30
+Peciolo_Color                  5.318513e-04 60
+UltSegmentos_Margen_tipo       7.616348e-04 30
+UltSegmentos_Apice_forma       1.007032e-03 25
+Lamina_Indumento_superficie    3.143457e-03 45
+Peciolo_Caspilla               1.094311e-02 15
+UltSegmentos_Venacion_tipo     2.207358e-02 10
+
+Description of each cluster by the categories
+=============================================
+$`1`
+                                                                                  Cla/Mod    Mod/Cla    Global      p.value    v.test
+Parafisos_presencia=Parafisos_presencia_Siempre                                 80.952381 100.000000 53.846154 8.179870e-15  7.764762
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                          100.000000  73.529412 32.051282 3.071250e-13  7.291236
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado              72.340426 100.000000 60.256410 9.749356e-12  6.810155
+Rizoma_Consistencia=Lenoso                                                      70.833333 100.000000 61.538462 3.342636e-11  6.630627
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                          100.000000  64.705882 28.205128 3.869775e-11  6.608980
+Parafisos_color=Parafisos_color_Pardo_amarillento                               95.833333  67.647059 30.769231 1.625306e-10  6.393124
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios            92.307692  70.588235 33.333333 3.696858e-10  6.266318
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Obtuso                        70.000000  82.352941 51.282051 1.238737e-06  4.849339
+Peciolo_Caspilla=Peciolo_Caspilla_Parda                                        100.000000  38.235294 16.666667 4.208626e-06  4.600804
+Indusio_forma=Indusio_forma_Esferopteroide                                     100.000000  35.294118 15.384615 1.262588e-05  4.366491
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Gradualmente_reducida       93.333333  41.176471 19.230769 1.487183e-05  4.330578
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Escamas                           69.444444  73.529412 46.153846 2.309941e-05  4.232611
+UltSegmentos_Margen_tipo=Crenulado                                             100.000000  32.352941 14.102564 3.677973e-05  4.126830
+Lamina_Division_tipo=2-pinnado-pinnatifida                                      92.857143  38.235294 17.948718 4.260424e-05  4.092883
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_3+                        53.968254 100.000000 80.769231 5.263648e-05  4.043601
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                             78.260870  52.941176 29.487179 8.510095e-05  3.929561
+Lamina_Division_tipo=2-pinnada                                                  74.074074  58.823529 34.615385 1.009954e-04  3.888188
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                      53.125000 100.000000 82.051282 1.122911e-04  3.862373
+Rizoma_Altura_epigea_clase=Arborescente_alta_(5-10_m)                          100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme_a_muricado                100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Indusio_forma=Indusio_forma_Hemitelioide                                       100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Rizoma_Diametro_clase=Masivo(>15mm)                                             50.000000 100.000000 87.179487 1.971887e-03  3.094434
+Esporangios_Tipo_hoja=Monomorfica                                               50.000000 100.000000 87.179487 1.971887e-03  3.094434
+Rizoma_Orientacion_espacial=Erecto                                              50.769231  97.058824 83.333333 3.723040e-03  2.900722
+UltSegmentos_Indumento_tipo=UltSegmentos_Indumento_tipo_Escamoso                78.571429  32.352941 17.948718 4.797175e-03  2.820347
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Escamas                 75.000000  35.294118 20.512821 5.920309e-03  2.752163
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Inframedial      100.000000  14.705882  6.410256 1.318056e-02  2.478853
+Lamina_Textura_tipo=Coriacea                                                    62.962963  50.000000 34.615385 1.445858e-02  2.445664
+Rizoma_Anatomia_estela=Dictiostela                                              47.887324 100.000000 91.025641 1.450492e-02  2.444510
+Rizoma_Ramificacion_patron=No_ramificado                                        47.887324 100.000000 91.025641 1.450492e-02  2.444510
+Raquis_Color=Raquis_Color_Pajizo_a_pardo_claro                                  75.000000  26.470588 15.384615 2.231201e-02  2.285014
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme_a_muricado                    100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Peciolo_Caspilla=Peciolo_Caspilla_Blanca                                       100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Parafisos_longitud=Parafisos_longitud_Mas_largos_que_los_esporangios           100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas_y_pelos                     72.727273  23.529412 14.102564 4.522747e-02  2.002533
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios           20.000000   8.823529 19.230769 4.412465e-02 -2.012905
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Glabro                              22.727273  14.705882 28.205128 2.155590e-02 -2.298103
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos                               17.647059   8.823529 21.794872 1.555318e-02 -2.419235
+UltSegmentos_Margen_tipo=Lobado                                                  0.000000   0.000000  8.974359 1.450492e-02 -2.444510
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Fronda_dimorfica   0.000000   0.000000  8.974359 1.450492e-02 -2.444510
+Raquis_Color=Raquis_Color_Pajizo                                                16.666667   8.823529 23.076923 8.901104e-03 -2.615829
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal          13.333333   5.882353 19.230769 8.562766e-03 -2.629035
+Rizoma_Orientacion_espacial=Postrado                                             0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Rizoma_Diametro_clase=Robusto(5-15mm)                                            0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Parafisos_presencia=Parafisos_presencia_Casi_siempre                             0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Esporangios_Tipo_hoja=Dimorfica                                                  0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                            33.333333  55.882353 73.076923 3.397943e-03 -2.929238
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Agudo                         15.000000   8.823529 25.641026 2.707570e-03 -2.999124
+Rizoma_Altura_epigea_clase=Postrada_o_rastrera_(0_m)                             0.000000   0.000000 12.820513 1.971887e-03 -3.094434
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_2                                        0.000000   0.000000 12.820513 1.971887e-03 -3.094434
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_2                          0.000000   0.000000 14.102564 9.859435e-04 -3.294507
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Conforme                     0.000000   0.000000 14.102564 9.859435e-04 -3.294507
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Glabro                             6.250000   2.941176 20.512821 5.029708e-04 -3.479169
+Lamina_Division_tipo=1-pinnada                                                   0.000000   0.000000 16.666667 2.354492e-04 -3.677589
+Indusio_forma=Indusio_forma_Linear                                               0.000000   0.000000 24.358974 2.098779e-06 -4.743673
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear                   0.000000   0.000000 30.769231 2.227317e-08 -5.593348
+Parafisos_presencia=Parafisos_presencia_Nunca                                    0.000000   0.000000 30.769231 2.227317e-08 -5.593348
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                            26.666667  47.058824 76.923077 1.036834e-08 -5.724591
+Rizoma_Consistencia=Firme                                                        0.000000   0.000000 33.333333 2.957305e-09 -5.933951
+Parafisos_longitud=Parafisos_longitud_No_aplica                                  0.000000   0.000000 35.897436 3.412275e-10 -6.278786
+Parafisos_color=Parafisos_color_No_aplica                                        0.000000   0.000000 35.897436 3.412275e-10 -6.278786
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                         0.000000   0.000000 38.461538 3.342636e-11 -6.630627
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                                 2.222222   2.941176 57.692308 3.118644e-21 -9.458677
+
+$`2`
+                                                                          Cla/Mod    Mod/Cla    Global      p.value    v.test
+Parafisos_presencia=Parafisos_presencia_Nunca                           70.833333 100.000000 30.769231 5.517841e-12  6.891574
+Parafisos_longitud=Parafisos_longitud_No_aplica                         60.714286 100.000000 35.897436 3.423569e-10  6.278272
+Parafisos_color=Parafisos_color_No_aplica                               60.714286 100.000000 35.897436 3.423569e-10  6.278272
+Rizoma_Consistencia=Firme                                               61.538462  94.117647 33.333333 4.503171e-09  5.864563
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_2                 90.909091  58.823529 14.102564 1.556922e-07  5.245697
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_2                               90.000000  52.941176 12.820513 1.209399e-06  4.854091
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                        37.777778 100.000000 57.692308 1.758592e-05  4.293524
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Medial    39.024390  94.117647 52.564103 6.563675e-05  3.991572
+UltSegmentos_Margen_tipo=Lobado                                         85.714286  35.294118  8.974359 3.004774e-04  3.614888
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                43.333333  76.470588 38.461538 4.575160e-04  3.504471
+Lamina_Division_tipo=2-3-pinnado-pinnatifida                           100.000000  23.529412  5.128205 1.668507e-03  3.143657
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                    29.824561 100.000000 73.076923 2.226346e-03  3.058249
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                    28.333333 100.000000 76.923077 6.173369e-03  2.738428
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Pelos_y_escamas          100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Lamina_Textura_tipo=Herbacea_a_cartacea                                100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos_y_escamas            100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                 26.562500 100.000000 82.051282 2.199092e-02  2.290525
+Indusio_forma=Indusio_forma_Reniforme                                   75.000000  17.647059  5.128205 3.241671e-02  2.139234
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear          37.500000  52.941176 30.769231 3.511884e-02  2.106985
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Puberulento              100.000000  11.764706  2.564103 4.528805e-02  2.001969
+Indusio_forma=Indusio_forma_Esferopteroide                               0.000000   0.000000 15.384615 4.011099e-02 -2.052604
+Peciolo_Caspilla=Peciolo_Caspilla_Parda                                  0.000000   0.000000 16.666667 2.977937e-02 -2.173013
+Lamina_Division_tipo=2-pinnada                                           7.407407  11.764706 34.615385 2.449107e-02 -2.249337
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal   0.000000   0.000000 19.230769 1.614958e-02 -2.405517
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios    0.000000   0.000000 19.230769 1.614958e-02 -2.405517
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Glabro           8.823529  17.647059 43.589744 1.555318e-02 -2.419235
+Lamina_Textura_tipo=Coriacea                                             3.703704   5.882353 34.615385 3.559280e-03 -2.914790
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                    0.000000   0.000000 28.205128 1.562348e-03 -3.162846
+Parafisos_color=Parafisos_color_Pardo_amarillento                        0.000000   0.000000 30.769231 7.517530e-04 -3.369974
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                    0.000000   0.000000 32.051282 5.150900e-04 -3.472784
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios     0.000000   0.000000 33.333333 3.498725e-04 -3.575266
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                              12.500000  47.058824 82.051282 1.619916e-04 -3.771927
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_3+                11.111111  41.176471 80.769231 2.954961e-05 -4.176910
+Parafisos_presencia=Parafisos_presencia_Siempre                          0.000000   0.000000 53.846154 1.370675e-07 -5.269136
+Rizoma_Consistencia=Lenoso                                               2.083333   5.882353 61.538462 1.151034e-07 -5.301106
+
+$`3`
+                                                                                  Cla/Mod    Mod/Cla    Global      p.value    v.test
+Indusio_forma=Indusio_forma_Linear                                              63.157895  85.714286 24.358974 8.736552e-08  5.351215
+Parafisos_presencia=Parafisos_presencia_Casi_siempre                           100.000000  57.142857 10.256410 1.280767e-07  5.281577
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                        46.666667 100.000000 38.461538 1.420518e-07  5.262575
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios           66.666667  71.428571 19.230769 1.854965e-06  4.768615
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear                  50.000000  85.714286 30.769231 4.047116e-06  4.608948
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Glabro                            56.250000  64.285714 20.512821 8.136917e-05  3.940331
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                                31.111111 100.000000 57.692308 1.630033e-04  3.770374
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Glabro                              45.454545  71.428571 28.205128 2.722044e-04  3.640410
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal          53.333333  57.142857 19.230769 4.994246e-04  3.481065
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Agudo                         45.000000  64.285714 25.641026 9.154521e-04  3.315299
+UltSegmentos_Venacion_tipo=Anastomosada                                         71.428571  35.714286  8.974359 1.675793e-03  3.142382
+Esporangios_Tipo_hoja=Dimorfica                                                 62.500000  35.714286 10.256410 4.092857e-03  2.870915
+Lamina_Division_tipo=Tripartida                                                100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Muricado                         100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Parafisos_color=Parafisos_color_Cafe_dorado_a_cafe_rojizo                      100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Parafisos_color=Parafisos_color_Pardo_claro                                     66.666667  28.571429  7.692308 8.877804e-03  2.616724
+Lamina_Division_tipo=1-pinnada                                                  46.153846  42.857143 16.666667 1.101408e-02  2.542252
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                            23.333333 100.000000 76.923077 1.694382e-02  2.387924
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Fronda_dimorfica  57.142857  28.571429  8.974359 1.898972e-02  2.345733
+Rizoma_Orientacion_espacial=Decumbente                                         100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Lamina_Division_tipo=Pedata                                                    100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Aristado_en_las_uniones          100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Acrosticoide           100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Acrosticoide     100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Parafisos_color=Parafisos_color_Cafe_rojizo                                    100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Rizoma_Consistencia=Lenoso                                                      25.000000  85.714286 61.538462 4.185298e-02  2.034979
+Indusio_presencia=Indusio_presencia_Si                                          25.000000  85.714286 61.538462 4.185298e-02  2.034979
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                      21.875000 100.000000 82.051282 4.674641e-02  1.988591
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                         21.875000 100.000000 82.051282 4.674641e-02  1.988591
+Lamina_Division_tipo=2-pinnado-pinnatifida                                       0.000000   0.000000 17.948718 4.674641e-02 -1.988591
+Indusio_forma=Indusio_forma_No_aplica                                            6.666667  14.285714 38.461538 4.185298e-02 -2.034979
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                              4.347826   7.142857 29.487179 4.110880e-02 -2.042431
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Gradualmente_reducida        0.000000   0.000000 19.230769 3.652063e-02 -2.091083
+Parafisos_color=Parafisos_color_Pardo_amarillento                                4.166667   7.142857 30.769231 3.232002e-02 -2.140430
+Lamina_Division_tipo=2-pinnada                                                   3.703704   7.142857 34.615385 1.508644e-02 -2.430297
+Parafisos_presencia=Parafisos_presencia_Siempre                                  7.142857  21.428571 53.846154 9.039819e-03 -2.610545
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                            0.000000   0.000000 28.205128 5.670179e-03 -2.766269
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                            0.000000   0.000000 32.051282 2.348256e-03 -3.042239
+Esporangios_Tipo_hoja=Monomorfica                                               11.764706  57.142857 87.179487 1.753441e-03 -3.129098
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios             0.000000   0.000000 33.333333 1.727962e-03 -3.133396
+UltSegmentos_Venacion_tipo=Libre                                                11.428571  57.142857 89.743590 2.771946e-04 -3.635730
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Obtuso                         0.000000   0.000000 51.282051 9.445415e-06 -4.429495
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Medial             0.000000   0.000000 52.564103 5.965525e-06 -4.527608
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado               0.000000   0.000000 60.256410 2.590356e-07 -5.151047
+
+$`4`
+                                                                           Cla/Mod   Mod/Cla    Global      p.value    v.test
+Rizoma_Altura_epigea_clase=Postrada_o_rastrera_(0_m)                     80.000000  88.88889 12.820513 1.688924e-08  5.641176
+Rizoma_Orientacion_espacial=Postrado                                     87.500000  77.77778 10.256410 1.067093e-07  5.314911
+Rizoma_Ramificacion_patron=Lateral                                      100.000000  55.55556  6.410256 5.968427e-06  4.527505
+Rizoma_Proteccion_externa=Desnudo                                        75.000000  66.66667 10.256410 8.617351e-06  4.449243
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_1                               100.000000  44.44444  5.128205 8.833272e-05  3.920589
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Pelos                      62.500000  55.55556 10.256410 2.985795e-04  3.616529
+Rizoma_simetria=Dorsiventral                                             80.000000  44.44444  6.410256 4.237583e-04  3.524828
+Peciolo_Color=Peciolo_Color_Atropurpureo                                 80.000000  44.44444  6.410256 4.237583e-04  3.524828
+Rizoma_Consistencia=Firme                                                30.769231  88.88889 33.333333 4.797389e-04  3.491821
+Rizoma_Anatomia_estela=Sifonostela                                      100.000000  33.33333  3.846154 1.104159e-03  3.262547
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_1                 100.000000  33.33333  3.846154 1.104159e-03  3.262547
+Lamina_Color_foliar=Lamina_Color_foliar_Glauco/Blanquecino              100.000000  33.33333  3.846154 1.104159e-03  3.262547
+UltSegmentos_Margen_tipo=Entero                                          25.000000  88.88889 41.025641 2.960768e-03  2.971782
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                         20.000000 100.00000 57.692308 4.859293e-03  2.816216
+Rizoma_Diametro_clase=Robusto(5-15mm)                                    50.000000  44.44444 10.256410 5.225835e-03  2.792773
+Rizoma_Diametro_clase=Delgado(2-5mm)                                    100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Dispersos 100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Parafisos_color=Parafisos_color_Amarillento_a_anaranjado                100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal   33.333333  55.55556 19.230769 1.213089e-02  2.508314
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Conforme             36.363636  44.44444 14.102564 2.161053e-02  2.297144
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos                        29.411765  55.55556 21.794872 2.299929e-02  2.273446
+Lamina_Division_tipo=3-pinnada                                           42.857143  33.33333  8.974359 3.271288e-02  2.135590
+Indusio_presencia=Indusio_presencia_No                                   23.076923  66.66667 33.333333 3.839173e-02  2.070648
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                     15.789474 100.00000 73.076923 4.933228e-02  1.965709
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                     0.000000   0.00000 28.205128 4.154297e-02 -2.038070
+UltSegmentos_Margen_tipo=Serrado                                          0.000000   0.00000 28.205128 4.154297e-02 -2.038070
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                       0.000000   0.00000 29.487179 3.486642e-02 -2.109906
+Parafisos_color=Parafisos_color_Pardo_amarillento                         0.000000   0.00000 30.769231 2.916101e-02 -2.181303
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                     0.000000   0.00000 32.051282 2.430084e-02 -2.252339
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                  0.000000   0.00000 38.461538 9.196447e-03 -2.604664
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                6.250000  44.44444 82.051282 8.425334e-03 -2.634532
+Rizoma_Anatomia_estela=Dictiostela                                        7.042254  55.55556 91.025641 2.727012e-03 -2.996944
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Escamas                     0.000000   0.00000 46.153846 2.445056e-03 -3.030059
+Rizoma_Consistencia=Lenoso                                                2.083333  11.11111 61.538462 1.697449e-03 -3.138621
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                   4.687500  33.33333 82.051282 7.640912e-04 -3.365485
+Rizoma_simetria=Radial                                                    6.849315  55.55556 93.589744 4.237583e-04 -3.524828
+Rizoma_Diametro_clase=Masivo(>15mm)                                       4.411765  33.33333 87.179487 6.074215e-05 -4.009909
+Rizoma_Ramificacion_patron=No_ramificado                                  4.225352  33.33333 91.025641 2.221127e-06 -4.732188
+Rizoma_Orientacion_espacial=Erecto                                        1.538462  11.11111 83.333333 4.665652e-07 -5.039576
+
+$`5`
+                                                                  Cla/Mod Mod/Cla    Global      p.value    v.test
+Rizoma_Proteccion_externa=Estipulas_carnosas                    100.00000     100  2.564103 0.0003330003  3.588175
+Peciolo_Estipulas=Peciolo_Estipulas_Presente                    100.00000     100  2.564103 0.0003330003  3.588175
+Esporangios_organizacion=Esporangios_organizacion_Sinangios     100.00000     100  2.564103 0.0003330003  3.588175
+Indusio_presencia=Indusio_presencia_No_aplica                    50.00000     100  5.128205 0.0019980020  3.090529
+Parafisos_presencia=Parafisos_presencia_No_aplica                50.00000     100  5.128205 0.0019980020  3.090529
+Raquis_Color=Raquis_Color_NA                                     18.18182     100 14.102564 0.0183150183  2.359187
+Rizoma_Consistencia=Carnoso                                     100.00000      50  1.282051 0.0256410256  2.231606
+Rizoma_Consistencia=Herbaceo                                    100.00000      50  1.282051 0.0256410256  2.231606
+Rizoma_Ramificacion_patron=Dicotoma_isotoma                     100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Division_tipo=2-4-pinnada                                100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Textura_tipo=Carnosa                                     100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Color_foliar=Lamina_Color_foliar_Verde_palido            100.00000      50  1.282051 0.0256410256  2.231606
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Oblongo 100.00000      50  1.282051 0.0256410256  2.231606
+Peciolo_Color=Peciolo_Color_NA                                   11.76471     100 21.794872 0.0452880453  2.001969
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes           0.00000       0 82.051282 0.0303030303 -2.166107
+Esporangios_organizacion=Esporangios_organizacion_Soros           0.00000       0 94.871795 0.0019980020 -3.090529
+Peciolo_Estipulas=Peciolo_Estipulas_No                            0.00000       0 97.435897 0.0003330003 -3.588175
+
+$`6`
+                                                                                    Cla/Mod Mod/Cla    Global      p.value    v.test
+Rizoma_Consistencia=Fibroso                                                             100     100  2.564103 0.0003330003  3.588175
+Rizoma_Anatomia_estela=Actinoplectostela                                                100     100  2.564103 0.0003330003  3.588175
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Masas                           100     100  2.564103 0.0003330003  3.588175
+Esporangios_organizacion=Esporangios_organizacion_Masas                                 100     100  2.564103 0.0003330003  3.588175
+Rizoma_Proteccion_externa=Masa_de_raices                                                 50     100  5.128205 0.0019980020  3.090529
+Indusio_presencia=Indusio_presencia_No_aplica                                            50     100  5.128205 0.0019980020  3.090529
+Parafisos_presencia=Parafisos_presencia_No_aplica                                        50     100  5.128205 0.0019980020  3.090529
+Habitat=Palustre                                                                         40     100  6.410256 0.0033300033  2.935510
+Rizoma_posicion=Semienterrado                                                            40     100  6.410256 0.0033300033  2.935510
+Peciolo_Color=Peciolo_Color_Pajizo_a_rojizo                                             100      50  1.282051 0.0256410256  2.231606
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Pelos_laxos                     100      50  1.282051 0.0256410256  2.231606
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Reducida                            100      50  1.282051 0.0256410256  2.231606
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Porcion_apical_fertil     100      50  1.282051 0.0256410256  2.231606
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                                   0       0 82.051282 0.0303030303 -2.166107
+Esporangios_Tipo_hoja=Monomorfica                                                         0       0 87.179487 0.0149850150 -2.432741
+Rizoma_Anatomia_estela=Dictiostela                                                        0       0 91.025641 0.0069930070 -2.697177
+Habitat=Terrestre                                                                         0       0 93.589744 0.0033300033 -2.935510
+Rizoma_posicion=Epigeo                                                                    0       0 93.589744 0.0033300033 -2.935510
+Esporangios_organizacion=Esporangios_organizacion_Soros                                   0       0 94.871795 0.0019980020 -3.090529
+
+> top_mixto_detallado <- obtener_top_vtest(res.hcpc, top_n = 10, formato = "detallado")
+> print(top_mixto_detallado)
+     Cluster        Tipo                                                              Variable v_test                 Efecto
+1  Clúster 1 Cualitativa                      Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme  -9.46    Subrepresentado (-)
+2  Clúster 1 Cualitativa                       Parafisos_presencia=Parafisos_presencia_Siempre   7.76 Sobrerrepresentado (+)
+3  Clúster 1 Cualitativa                 Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada   7.29 Sobrerrepresentado (+)
+4  Clúster 1 Cualitativa    Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado   6.81 Sobrerrepresentado (+)
+5  Clúster 1 Cualitativa                                            Rizoma_Consistencia=Lenoso   6.63 Sobrerrepresentado (+)
+6  Clúster 1 Cualitativa                              Rizoma_Altura_epigea_clase=Baja_(<0.5_m)  -6.63    Subrepresentado (-)
+7  Clúster 1 Cualitativa                 Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)   6.61 Sobrerrepresentado (+)
+8  Clúster 1 Cualitativa                     Parafisos_color=Parafisos_color_Pardo_amarillento   6.39 Sobrerrepresentado (+)
+9  Clúster 1 Cualitativa                       Parafisos_longitud=Parafisos_longitud_No_aplica  -6.28    Subrepresentado (-)
+10 Clúster 1 Cualitativa                             Parafisos_color=Parafisos_color_No_aplica  -6.28    Subrepresentado (-)
+11 Clúster 2 Cualitativa                         Parafisos_presencia=Parafisos_presencia_Nunca   6.89 Sobrerrepresentado (+)
+12 Clúster 2 Cualitativa                       Parafisos_longitud=Parafisos_longitud_No_aplica   6.28 Sobrerrepresentado (+)
+13 Clúster 2 Cualitativa                             Parafisos_color=Parafisos_color_No_aplica   6.28 Sobrerrepresentado (+)
+14 Clúster 2 Cualitativa                                             Rizoma_Consistencia=Firme   5.86 Sobrerrepresentado (+)
+15 Clúster 2 Cualitativa                                            Rizoma_Consistencia=Lenoso  -5.30    Subrepresentado (-)
+16 Clúster 2 Cualitativa                       Parafisos_presencia=Parafisos_presencia_Siempre  -5.27    Subrepresentado (-)
+17 Clúster 2 Cualitativa               Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_2   5.25 Sobrerrepresentado (+)
+18 Clúster 2 Cualitativa                             Rizoma_Meristelas_n=Rizoma_Meristelas_n_2   4.85 Sobrerrepresentado (+)
+19 Clúster 2 Cualitativa                      Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme   4.29 Sobrerrepresentado (+)
+20 Clúster 2 Cualitativa              Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_3+  -4.18    Subrepresentado (-)
+21 Clúster 3 Cualitativa                                    Indusio_forma=Indusio_forma_Linear   5.35 Sobrerrepresentado (+)
+22 Clúster 3 Cualitativa                  Parafisos_presencia=Parafisos_presencia_Casi_siempre   5.28 Sobrerrepresentado (+)
+23 Clúster 3 Cualitativa                              Rizoma_Altura_epigea_clase=Baja_(<0.5_m)   5.26 Sobrerrepresentado (+)
+24 Clúster 3 Cualitativa    Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado  -5.15    Subrepresentado (-)
+25 Clúster 3 Cualitativa Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios   4.77 Sobrerrepresentado (+)
+26 Clúster 3 Cualitativa        Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear   4.61 Sobrerrepresentado (+)
+27 Clúster 3 Cualitativa  Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Medial  -4.53    Subrepresentado (-)
+28 Clúster 3 Cualitativa              UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Obtuso  -4.43    Subrepresentado (-)
+29 Clúster 3 Cualitativa                  Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Glabro   3.94 Sobrerrepresentado (+)
+30 Clúster 3 Cualitativa                      Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme   3.77 Sobrerrepresentado (+)
+31 Clúster 4 Cualitativa                  Rizoma_Altura_epigea_clase=Postrada_o_rastrera_(0_m)   5.64 Sobrerrepresentado (+)
+32 Clúster 4 Cualitativa                                  Rizoma_Orientacion_espacial=Postrado   5.31 Sobrerrepresentado (+)
+33 Clúster 4 Cualitativa                                    Rizoma_Orientacion_espacial=Erecto  -5.04    Subrepresentado (-)
+34 Clúster 4 Cualitativa                              Rizoma_Ramificacion_patron=No_ramificado  -4.73    Subrepresentado (-)
+35 Clúster 4 Cualitativa                                    Rizoma_Ramificacion_patron=Lateral   4.53 Sobrerrepresentado (+)
+36 Clúster 4 Cualitativa                                     Rizoma_Proteccion_externa=Desnudo   4.45 Sobrerrepresentado (+)
+37 Clúster 4 Cualitativa                                   Rizoma_Diametro_clase=Masivo(>15mm)  -4.01    Subrepresentado (-)
+38 Clúster 4 Cualitativa                             Rizoma_Meristelas_n=Rizoma_Meristelas_n_1   3.92 Sobrerrepresentado (+)
+39 Clúster 4 Cualitativa                   Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Pelos   3.62 Sobrerrepresentado (+)
+40 Clúster 4 Cualitativa                                          Rizoma_simetria=Dorsiventral   3.52 Sobrerrepresentado (+)
+41 Clúster 5 Cualitativa                          Rizoma_Proteccion_externa=Estipulas_carnosas   3.59 Sobrerrepresentado (+)
+42 Clúster 5 Cualitativa                          Peciolo_Estipulas=Peciolo_Estipulas_Presente   3.59 Sobrerrepresentado (+)
+43 Clúster 5 Cualitativa           Esporangios_organizacion=Esporangios_organizacion_Sinangios   3.59 Sobrerrepresentado (+)
+44 Clúster 5 Cualitativa                                Peciolo_Estipulas=Peciolo_Estipulas_No  -3.59    Subrepresentado (-)
+45 Clúster 5 Cualitativa                         Indusio_presencia=Indusio_presencia_No_aplica   3.09 Sobrerrepresentado (+)
+46 Clúster 5 Cualitativa                     Parafisos_presencia=Parafisos_presencia_No_aplica   3.09 Sobrerrepresentado (+)
+47 Clúster 5 Cualitativa               Esporangios_organizacion=Esporangios_organizacion_Soros  -3.09    Subrepresentado (-)
+48 Clúster 5 Cualitativa                                          Raquis_Color=Raquis_Color_NA   2.36 Sobrerrepresentado (+)
+49 Clúster 5 Cualitativa                                           Rizoma_Consistencia=Carnoso   2.23 Sobrerrepresentado (+)
+50 Clúster 5 Cualitativa                                          Rizoma_Consistencia=Herbaceo   2.23 Sobrerrepresentado (+)
+51 Clúster 6 Cualitativa                                           Rizoma_Consistencia=Fibroso   3.59 Sobrerrepresentado (+)
+52 Clúster 6 Cualitativa                              Rizoma_Anatomia_estela=Actinoplectostela   3.59 Sobrerrepresentado (+)
+53 Clúster 6 Cualitativa         Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Masas   3.59 Sobrerrepresentado (+)
+54 Clúster 6 Cualitativa               Esporangios_organizacion=Esporangios_organizacion_Masas   3.59 Sobrerrepresentado (+)
+55 Clúster 6 Cualitativa                              Rizoma_Proteccion_externa=Masa_de_raices   3.09 Sobrerrepresentado (+)
+56 Clúster 6 Cualitativa                         Indusio_presencia=Indusio_presencia_No_aplica   3.09 Sobrerrepresentado (+)
+57 Clúster 6 Cualitativa                     Parafisos_presencia=Parafisos_presencia_No_aplica   3.09 Sobrerrepresentado (+)
+58 Clúster 6 Cualitativa               Esporangios_organizacion=Esporangios_organizacion_Soros  -3.09    Subrepresentado (-)
+59 Clúster 6 Cualitativa                                                      Habitat=Palustre   2.94 Sobrerrepresentado (+)
+60 Clúster 6 Cualitativa                                         Rizoma_posicion=Semienterrado   2.94 Sobrerrepresentado (+)
+   Detalle_Cluster Detalle_Global p_valor
+1   2.9% del grupo   57.7% global  0.0000
+2   100% del grupo   53.8% global  0.0000
+3  73.5% del grupo   32.1% global  0.0000
+4   100% del grupo   60.3% global  0.0000
+5   100% del grupo   61.5% global  0.0000
+6     0% del grupo   38.5% global  0.0000
+7  64.7% del grupo   28.2% global  0.0000
+8  67.6% del grupo   30.8% global  0.0000
+9     0% del grupo   35.9% global  0.0000
+10    0% del grupo   35.9% global  0.0000
+11  100% del grupo   30.8% global  0.0000
+12  100% del grupo   35.9% global  0.0000
+13  100% del grupo   35.9% global  0.0000
+14 94.1% del grupo   33.3% global  0.0000
+15  5.9% del grupo   61.5% global  0.0000
+16    0% del grupo   53.8% global  0.0000
+17 58.8% del grupo   14.1% global  0.0000
+18 52.9% del grupo   12.8% global  0.0000
+19  100% del grupo   57.7% global  0.0000
+20 41.2% del grupo   80.8% global  0.0000
+21 85.7% del grupo   24.4% global  0.0000
+22 57.1% del grupo   10.3% global  0.0000
+23  100% del grupo   38.5% global  0.0000
+24    0% del grupo   60.3% global  0.0000
+25 71.4% del grupo   19.2% global  0.0000
+26 85.7% del grupo   30.8% global  0.0000
+27    0% del grupo   52.6% global  0.0000
+28    0% del grupo   51.3% global  0.0000
+29 64.3% del grupo   20.5% global  0.0001
+30  100% del grupo   57.7% global  0.0002
+31 88.9% del grupo   12.8% global  0.0000
+32 77.8% del grupo   10.3% global  0.0000
+33 11.1% del grupo   83.3% global  0.0000
+34 33.3% del grupo     91% global  0.0000
+35 55.6% del grupo    6.4% global  0.0000
+36 66.7% del grupo   10.3% global  0.0000
+37 33.3% del grupo   87.2% global  0.0001
+38 44.4% del grupo    5.1% global  0.0001
+39 55.6% del grupo   10.3% global  0.0003
+40 44.4% del grupo    6.4% global  0.0004
+41  100% del grupo    2.6% global  0.0003
+42  100% del grupo    2.6% global  0.0003
+43  100% del grupo    2.6% global  0.0003
+44    0% del grupo   97.4% global  0.0003
+45  100% del grupo    5.1% global  0.0020
+46  100% del grupo    5.1% global  0.0020
+47    0% del grupo   94.9% global  0.0020
+48  100% del grupo   14.1% global  0.0183
+49   50% del grupo    1.3% global  0.0256
+50   50% del grupo    1.3% global  0.0256
+51  100% del grupo    2.6% global  0.0003
+52  100% del grupo    2.6% global  0.0003
+53  100% del grupo    2.6% global  0.0003
+54  100% del grupo    2.6% global  0.0003
+55  100% del grupo    5.1% global  0.0020
+56  100% del grupo    5.1% global  0.0020
+57  100% del grupo    5.1% global  0.0020
+58    0% del grupo   94.9% global  0.0020
+59  100% del grupo    6.4% global  0.0033
+60  100% del grupo    6.4% global  0.0033
+
+> res.hcpc$desc.var$category
+$`1`
+                                                                                  Cla/Mod    Mod/Cla    Global      p.value    v.test
+Parafisos_presencia=Parafisos_presencia_Siempre                                 80.952381 100.000000 53.846154 8.179870e-15  7.764762
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                          100.000000  73.529412 32.051282 3.071250e-13  7.291236
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado              72.340426 100.000000 60.256410 9.749356e-12  6.810155
+Rizoma_Consistencia=Lenoso                                                      70.833333 100.000000 61.538462 3.342636e-11  6.630627
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                          100.000000  64.705882 28.205128 3.869775e-11  6.608980
+Parafisos_color=Parafisos_color_Pardo_amarillento                               95.833333  67.647059 30.769231 1.625306e-10  6.393124
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios            92.307692  70.588235 33.333333 3.696858e-10  6.266318
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Obtuso                        70.000000  82.352941 51.282051 1.238737e-06  4.849339
+Peciolo_Caspilla=Peciolo_Caspilla_Parda                                        100.000000  38.235294 16.666667 4.208626e-06  4.600804
+Indusio_forma=Indusio_forma_Esferopteroide                                     100.000000  35.294118 15.384615 1.262588e-05  4.366491
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Gradualmente_reducida       93.333333  41.176471 19.230769 1.487183e-05  4.330578
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Escamas                           69.444444  73.529412 46.153846 2.309941e-05  4.232611
+UltSegmentos_Margen_tipo=Crenulado                                             100.000000  32.352941 14.102564 3.677973e-05  4.126830
+Lamina_Division_tipo=2-pinnado-pinnatifida                                      92.857143  38.235294 17.948718 4.260424e-05  4.092883
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_3+                        53.968254 100.000000 80.769231 5.263648e-05  4.043601
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                             78.260870  52.941176 29.487179 8.510095e-05  3.929561
+Lamina_Division_tipo=2-pinnada                                                  74.074074  58.823529 34.615385 1.009954e-04  3.888188
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                      53.125000 100.000000 82.051282 1.122911e-04  3.862373
+Rizoma_Altura_epigea_clase=Arborescente_alta_(5-10_m)                          100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme_a_muricado                100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Indusio_forma=Indusio_forma_Hemitelioide                                       100.000000  23.529412 10.256410 7.743548e-04  3.361803
+Rizoma_Diametro_clase=Masivo(>15mm)                                             50.000000 100.000000 87.179487 1.971887e-03  3.094434
+Esporangios_Tipo_hoja=Monomorfica                                               50.000000 100.000000 87.179487 1.971887e-03  3.094434
+Rizoma_Orientacion_espacial=Erecto                                              50.769231  97.058824 83.333333 3.723040e-03  2.900722
+UltSegmentos_Indumento_tipo=UltSegmentos_Indumento_tipo_Escamoso                78.571429  32.352941 17.948718 4.797175e-03  2.820347
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Escamas                 75.000000  35.294118 20.512821 5.920309e-03  2.752163
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Inframedial      100.000000  14.705882  6.410256 1.318056e-02  2.478853
+Lamina_Textura_tipo=Coriacea                                                    62.962963  50.000000 34.615385 1.445858e-02  2.445664
+Rizoma_Anatomia_estela=Dictiostela                                              47.887324 100.000000 91.025641 1.450492e-02  2.444510
+Rizoma_Ramificacion_patron=No_ramificado                                        47.887324 100.000000 91.025641 1.450492e-02  2.444510
+Raquis_Color=Raquis_Color_Pajizo_a_pardo_claro                                  75.000000  26.470588 15.384615 2.231201e-02  2.285014
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme_a_muricado                    100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Peciolo_Caspilla=Peciolo_Caspilla_Blanca                                       100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Parafisos_longitud=Parafisos_longitud_Mas_largos_que_los_esporangios           100.000000  11.764706  5.128205 3.251205e-02  2.138058
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas_y_pelos                     72.727273  23.529412 14.102564 4.522747e-02  2.002533
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios           20.000000   8.823529 19.230769 4.412465e-02 -2.012905
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Glabro                              22.727273  14.705882 28.205128 2.155590e-02 -2.298103
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos                               17.647059   8.823529 21.794872 1.555318e-02 -2.419235
+UltSegmentos_Margen_tipo=Lobado                                                  0.000000   0.000000  8.974359 1.450492e-02 -2.444510
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Fronda_dimorfica   0.000000   0.000000  8.974359 1.450492e-02 -2.444510
+Raquis_Color=Raquis_Color_Pajizo                                                16.666667   8.823529 23.076923 8.901104e-03 -2.615829
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal          13.333333   5.882353 19.230769 8.562766e-03 -2.629035
+Rizoma_Orientacion_espacial=Postrado                                             0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Rizoma_Diametro_clase=Robusto(5-15mm)                                            0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Parafisos_presencia=Parafisos_presencia_Casi_siempre                             0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Esporangios_Tipo_hoja=Dimorfica                                                  0.000000   0.000000 10.256410 7.558900e-03 -2.671163
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                            33.333333  55.882353 73.076923 3.397943e-03 -2.929238
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Agudo                         15.000000   8.823529 25.641026 2.707570e-03 -2.999124
+Rizoma_Altura_epigea_clase=Postrada_o_rastrera_(0_m)                             0.000000   0.000000 12.820513 1.971887e-03 -3.094434
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_2                                        0.000000   0.000000 12.820513 1.971887e-03 -3.094434
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_2                          0.000000   0.000000 14.102564 9.859435e-04 -3.294507
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Conforme                     0.000000   0.000000 14.102564 9.859435e-04 -3.294507
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Glabro                             6.250000   2.941176 20.512821 5.029708e-04 -3.479169
+Lamina_Division_tipo=1-pinnada                                                   0.000000   0.000000 16.666667 2.354492e-04 -3.677589
+Indusio_forma=Indusio_forma_Linear                                               0.000000   0.000000 24.358974 2.098779e-06 -4.743673
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear                   0.000000   0.000000 30.769231 2.227317e-08 -5.593348
+Parafisos_presencia=Parafisos_presencia_Nunca                                    0.000000   0.000000 30.769231 2.227317e-08 -5.593348
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                            26.666667  47.058824 76.923077 1.036834e-08 -5.724591
+Rizoma_Consistencia=Firme                                                        0.000000   0.000000 33.333333 2.957305e-09 -5.933951
+Parafisos_longitud=Parafisos_longitud_No_aplica                                  0.000000   0.000000 35.897436 3.412275e-10 -6.278786
+Parafisos_color=Parafisos_color_No_aplica                                        0.000000   0.000000 35.897436 3.412275e-10 -6.278786
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                         0.000000   0.000000 38.461538 3.342636e-11 -6.630627
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                                 2.222222   2.941176 57.692308 3.118644e-21 -9.458677
+
+$`2`
+                                                                          Cla/Mod    Mod/Cla    Global      p.value    v.test
+Parafisos_presencia=Parafisos_presencia_Nunca                           70.833333 100.000000 30.769231 5.517841e-12  6.891574
+Parafisos_longitud=Parafisos_longitud_No_aplica                         60.714286 100.000000 35.897436 3.423569e-10  6.278272
+Parafisos_color=Parafisos_color_No_aplica                               60.714286 100.000000 35.897436 3.423569e-10  6.278272
+Rizoma_Consistencia=Firme                                               61.538462  94.117647 33.333333 4.503171e-09  5.864563
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_2                 90.909091  58.823529 14.102564 1.556922e-07  5.245697
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_2                               90.000000  52.941176 12.820513 1.209399e-06  4.854091
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                        37.777778 100.000000 57.692308 1.758592e-05  4.293524
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Medial    39.024390  94.117647 52.564103 6.563675e-05  3.991572
+UltSegmentos_Margen_tipo=Lobado                                         85.714286  35.294118  8.974359 3.004774e-04  3.614888
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                43.333333  76.470588 38.461538 4.575160e-04  3.504471
+Lamina_Division_tipo=2-3-pinnado-pinnatifida                           100.000000  23.529412  5.128205 1.668507e-03  3.143657
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                    29.824561 100.000000 73.076923 2.226346e-03  3.058249
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                    28.333333 100.000000 76.923077 6.173369e-03  2.738428
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Pelos_y_escamas          100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Lamina_Textura_tipo=Herbacea_a_cartacea                                100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos_y_escamas            100.000000  17.647059  3.846154 8.938430e-03  2.614400
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                 26.562500 100.000000 82.051282 2.199092e-02  2.290525
+Indusio_forma=Indusio_forma_Reniforme                                   75.000000  17.647059  5.128205 3.241671e-02  2.139234
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear          37.500000  52.941176 30.769231 3.511884e-02  2.106985
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Puberulento              100.000000  11.764706  2.564103 4.528805e-02  2.001969
+Indusio_forma=Indusio_forma_Esferopteroide                               0.000000   0.000000 15.384615 4.011099e-02 -2.052604
+Peciolo_Caspilla=Peciolo_Caspilla_Parda                                  0.000000   0.000000 16.666667 2.977937e-02 -2.173013
+Lamina_Division_tipo=2-pinnada                                           7.407407  11.764706 34.615385 2.449107e-02 -2.249337
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal   0.000000   0.000000 19.230769 1.614958e-02 -2.405517
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios    0.000000   0.000000 19.230769 1.614958e-02 -2.405517
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Glabro           8.823529  17.647059 43.589744 1.555318e-02 -2.419235
+Lamina_Textura_tipo=Coriacea                                             3.703704   5.882353 34.615385 3.559280e-03 -2.914790
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                    0.000000   0.000000 28.205128 1.562348e-03 -3.162846
+Parafisos_color=Parafisos_color_Pardo_amarillento                        0.000000   0.000000 30.769231 7.517530e-04 -3.369974
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                    0.000000   0.000000 32.051282 5.150900e-04 -3.472784
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios     0.000000   0.000000 33.333333 3.498725e-04 -3.575266
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                              12.500000  47.058824 82.051282 1.619916e-04 -3.771927
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_3+                11.111111  41.176471 80.769231 2.954961e-05 -4.176910
+Parafisos_presencia=Parafisos_presencia_Siempre                          0.000000   0.000000 53.846154 1.370675e-07 -5.269136
+Rizoma_Consistencia=Lenoso                                               2.083333   5.882353 61.538462 1.151034e-07 -5.301106
+
+$`3`
+                                                                                  Cla/Mod    Mod/Cla    Global      p.value    v.test
+Indusio_forma=Indusio_forma_Linear                                              63.157895  85.714286 24.358974 8.736552e-08  5.351215
+Parafisos_presencia=Parafisos_presencia_Casi_siempre                           100.000000  57.142857 10.256410 1.280767e-07  5.281577
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                        46.666667 100.000000 38.461538 1.420518e-07  5.262575
+Parafisos_longitud=Parafisos_longitud_Tan_largos_como_los_esporangios           66.666667  71.428571 19.230769 1.854965e-06  4.768615
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Linear                  50.000000  85.714286 30.769231 4.047116e-06  4.608948
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Glabro                            56.250000  64.285714 20.512821 8.136917e-05  3.940331
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                                31.111111 100.000000 57.692308 1.630033e-04  3.770374
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Glabro                              45.454545  71.428571 28.205128 2.722044e-04  3.640410
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal          53.333333  57.142857 19.230769 4.994246e-04  3.481065
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Agudo                         45.000000  64.285714 25.641026 9.154521e-04  3.315299
+UltSegmentos_Venacion_tipo=Anastomosada                                         71.428571  35.714286  8.974359 1.675793e-03  3.142382
+Esporangios_Tipo_hoja=Dimorfica                                                 62.500000  35.714286 10.256410 4.092857e-03  2.870915
+Lamina_Division_tipo=Tripartida                                                100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Muricado                         100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Parafisos_color=Parafisos_color_Cafe_dorado_a_cafe_rojizo                      100.000000  21.428571  3.846154 4.784689e-03  2.821183
+Parafisos_color=Parafisos_color_Pardo_claro                                     66.666667  28.571429  7.692308 8.877804e-03  2.616724
+Lamina_Division_tipo=1-pinnada                                                  46.153846  42.857143 16.666667 1.101408e-02  2.542252
+Peciolo_Caspilla=Peciolo_Caspilla_NA                                            23.333333 100.000000 76.923077 1.694382e-02  2.387924
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Fronda_dimorfica  57.142857  28.571429  8.974359 1.898972e-02  2.345733
+Rizoma_Orientacion_espacial=Decumbente                                         100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Lamina_Division_tipo=Pedata                                                    100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Aristado_en_las_uniones          100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Acrosticoide           100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Acrosticoide     100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Parafisos_color=Parafisos_color_Cafe_rojizo                                    100.000000  14.285714  2.564103 3.030303e-02  2.166107
+Rizoma_Consistencia=Lenoso                                                      25.000000  85.714286 61.538462 4.185298e-02  2.034979
+Indusio_presencia=Indusio_presencia_Si                                          25.000000  85.714286 61.538462 4.185298e-02  2.034979
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                      21.875000 100.000000 82.051282 4.674641e-02  1.988591
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                         21.875000 100.000000 82.051282 4.674641e-02  1.988591
+Lamina_Division_tipo=2-pinnado-pinnatifida                                       0.000000   0.000000 17.948718 4.674641e-02 -1.988591
+Indusio_forma=Indusio_forma_No_aplica                                            6.666667  14.285714 38.461538 4.185298e-02 -2.034979
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                              4.347826   7.142857 29.487179 4.110880e-02 -2.042431
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Gradualmente_reducida        0.000000   0.000000 19.230769 3.652063e-02 -2.091083
+Parafisos_color=Parafisos_color_Pardo_amarillento                                4.166667   7.142857 30.769231 3.232002e-02 -2.140430
+Lamina_Division_tipo=2-pinnada                                                   3.703704   7.142857 34.615385 1.508644e-02 -2.430297
+Parafisos_presencia=Parafisos_presencia_Siempre                                  7.142857  21.428571 53.846154 9.039819e-03 -2.610545
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                            0.000000   0.000000 28.205128 5.670179e-03 -2.766269
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                            0.000000   0.000000 32.051282 2.348256e-03 -3.042239
+Esporangios_Tipo_hoja=Monomorfica                                               11.764706  57.142857 87.179487 1.753441e-03 -3.129098
+Parafisos_longitud=Parafisos_longitud_Mas_cortos_que_los_esporangios             0.000000   0.000000 33.333333 1.727962e-03 -3.133396
+UltSegmentos_Venacion_tipo=Libre                                                11.428571  57.142857 89.743590 2.771946e-04 -3.635730
+UltSegmentos_Apice_forma=UltSegmentos_Apice_forma_Obtuso                         0.000000   0.000000 51.282051 9.445415e-06 -4.429495
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Medial             0.000000   0.000000 52.564103 5.965525e-06 -4.527608
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Redondeado               0.000000   0.000000 60.256410 2.590356e-07 -5.151047
+
+$`4`
+                                                                           Cla/Mod   Mod/Cla    Global      p.value    v.test
+Rizoma_Altura_epigea_clase=Postrada_o_rastrera_(0_m)                     80.000000  88.88889 12.820513 1.688924e-08  5.641176
+Rizoma_Orientacion_espacial=Postrado                                     87.500000  77.77778 10.256410 1.067093e-07  5.314911
+Rizoma_Ramificacion_patron=Lateral                                      100.000000  55.55556  6.410256 5.968427e-06  4.527505
+Rizoma_Proteccion_externa=Desnudo                                        75.000000  66.66667 10.256410 8.617351e-06  4.449243
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_1                               100.000000  44.44444  5.128205 8.833272e-05  3.920589
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Pelos                      62.500000  55.55556 10.256410 2.985795e-04  3.616529
+Rizoma_simetria=Dorsiventral                                             80.000000  44.44444  6.410256 4.237583e-04  3.524828
+Peciolo_Color=Peciolo_Color_Atropurpureo                                 80.000000  44.44444  6.410256 4.237583e-04  3.524828
+Rizoma_Consistencia=Firme                                                30.769231  88.88889 33.333333 4.797389e-04  3.491821
+Rizoma_Anatomia_estela=Sifonostela                                      100.000000  33.33333  3.846154 1.104159e-03  3.262547
+Peciolo_Haces_vasculares_n=Peciolo_Haces_vasculares_n_1                 100.000000  33.33333  3.846154 1.104159e-03  3.262547
+Lamina_Color_foliar=Lamina_Color_foliar_Glauco/Blanquecino              100.000000  33.33333  3.846154 1.104159e-03  3.262547
+UltSegmentos_Margen_tipo=Entero                                          25.000000  88.88889 41.025641 2.960768e-03  2.971782
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Inerme                         20.000000 100.00000 57.692308 4.859293e-03  2.816216
+Rizoma_Diametro_clase=Robusto(5-15mm)                                    50.000000  44.44444 10.256410 5.225835e-03  2.792773
+Rizoma_Diametro_clase=Delgado(2-5mm)                                    100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Dispersos 100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Parafisos_color=Parafisos_color_Amarillento_a_anaranjado                100.000000  22.22222  2.564103 1.198801e-02  2.512497
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Marginal   33.333333  55.55556 19.230769 1.213089e-02  2.508314
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Conforme             36.363636  44.44444 14.102564 2.161053e-02  2.297144
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Pelos                        29.411765  55.55556 21.794872 2.299929e-02  2.273446
+Lamina_Division_tipo=3-pinnada                                           42.857143  33.33333  8.974359 3.271288e-02  2.135590
+Indusio_presencia=Indusio_presencia_No                                   23.076923  66.66667 33.333333 3.839173e-02  2.070648
+Raquis_Aristas_espinas=Raquis_Aristas_espinas_Inerme                     15.789474 100.00000 73.076923 4.933228e-02  1.965709
+Rizoma_Altura_epigea_clase=Arborescente_media_(2-5_m)                     0.000000   0.00000 28.205128 4.154297e-02 -2.038070
+UltSegmentos_Margen_tipo=Serrado                                          0.000000   0.00000 28.205128 4.154297e-02 -2.038070
+Raquis_Indumento_tipo=Raquis_Indumento_tipo_Escamas                       0.000000   0.00000 29.487179 3.486642e-02 -2.109906
+Parafisos_color=Parafisos_color_Pardo_amarillento                         0.000000   0.00000 30.769231 2.916101e-02 -2.181303
+Peciolo_Espinas_tipo=Peciolo_Espinas_tipo_Corticinada                     0.000000   0.00000 32.051282 2.430084e-02 -2.252339
+Rizoma_Altura_epigea_clase=Baja_(<0.5_m)                                  0.000000   0.00000 38.461538 9.196447e-03 -2.604664
+Rizoma_Meristelas_n=Rizoma_Meristelas_n_3+                                6.250000  44.44444 82.051282 8.425334e-03 -2.634532
+Rizoma_Anatomia_estela=Dictiostela                                        7.042254  55.55556 91.025641 2.727012e-03 -2.996944
+Peciolo_Indumento_tipo=Peciolo_Indumento_tipo_Escamas                     0.000000   0.00000 46.153846 2.445056e-03 -3.030059
+Rizoma_Consistencia=Lenoso                                                2.083333  11.11111 61.538462 1.697449e-03 -3.138621
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                   4.687500  33.33333 82.051282 7.640912e-04 -3.365485
+Rizoma_simetria=Radial                                                    6.849315  55.55556 93.589744 4.237583e-04 -3.524828
+Rizoma_Diametro_clase=Masivo(>15mm)                                       4.411765  33.33333 87.179487 6.074215e-05 -4.009909
+Rizoma_Ramificacion_patron=No_ramificado                                  4.225352  33.33333 91.025641 2.221127e-06 -4.732188
+Rizoma_Orientacion_espacial=Erecto                                        1.538462  11.11111 83.333333 4.665652e-07 -5.039576
+
+$`5`
+                                                                  Cla/Mod Mod/Cla    Global      p.value    v.test
+Rizoma_Proteccion_externa=Estipulas_carnosas                    100.00000     100  2.564103 0.0003330003  3.588175
+Peciolo_Estipulas=Peciolo_Estipulas_Presente                    100.00000     100  2.564103 0.0003330003  3.588175
+Esporangios_organizacion=Esporangios_organizacion_Sinangios     100.00000     100  2.564103 0.0003330003  3.588175
+Indusio_presencia=Indusio_presencia_No_aplica                    50.00000     100  5.128205 0.0019980020  3.090529
+Parafisos_presencia=Parafisos_presencia_No_aplica                50.00000     100  5.128205 0.0019980020  3.090529
+Raquis_Color=Raquis_Color_NA                                     18.18182     100 14.102564 0.0183150183  2.359187
+Rizoma_Consistencia=Carnoso                                     100.00000      50  1.282051 0.0256410256  2.231606
+Rizoma_Consistencia=Herbaceo                                    100.00000      50  1.282051 0.0256410256  2.231606
+Rizoma_Ramificacion_patron=Dicotoma_isotoma                     100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Division_tipo=2-4-pinnada                                100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Textura_tipo=Carnosa                                     100.00000      50  1.282051 0.0256410256  2.231606
+Lamina_Color_foliar=Lamina_Color_foliar_Verde_palido            100.00000      50  1.282051 0.0256410256  2.231606
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Oblongo 100.00000      50  1.282051 0.0256410256  2.231606
+Peciolo_Color=Peciolo_Color_NA                                   11.76471     100 21.794872 0.0452880453  2.001969
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes           0.00000       0 82.051282 0.0303030303 -2.166107
+Esporangios_organizacion=Esporangios_organizacion_Soros           0.00000       0 94.871795 0.0019980020 -3.090529
+Peciolo_Estipulas=Peciolo_Estipulas_No                            0.00000       0 97.435897 0.0003330003 -3.588175
+
+$`6`
+                                                                                    Cla/Mod Mod/Cla    Global      p.value    v.test
+Rizoma_Consistencia=Fibroso                                                             100     100  2.564103 0.0003330003  3.588175
+Rizoma_Anatomia_estela=Actinoplectostela                                                100     100  2.564103 0.0003330003  3.588175
+Esporangio_agrupacion_forma=Esporangio_agrupacion_forma_Masas                           100     100  2.564103 0.0003330003  3.588175
+Esporangios_organizacion=Esporangios_organizacion_Masas                                 100     100  2.564103 0.0003330003  3.588175
+Rizoma_Proteccion_externa=Masa_de_raices                                                 50     100  5.128205 0.0019980020  3.090529
+Indusio_presencia=Indusio_presencia_No_aplica                                            50     100  5.128205 0.0019980020  3.090529
+Parafisos_presencia=Parafisos_presencia_No_aplica                                        50     100  5.128205 0.0019980020  3.090529
+Habitat=Palustre                                                                         40     100  6.410256 0.0033300033  2.935510
+Rizoma_posicion=Semienterrado                                                            40     100  6.410256 0.0033300033  2.935510
+Peciolo_Color=Peciolo_Color_Pajizo_a_rojizo                                             100      50  1.282051 0.0256410256  2.231606
+Lamina_Indumento_superficie=Lamina_Indumento_superficie_Pelos_laxos                     100      50  1.282051 0.0256410256  2.231606
+Lamina_Pinna_apical_forma=Lamina_Pinna_apical_forma_Reducida                            100      50  1.282051 0.0256410256  2.231606
+Esporangio_agrupacion_posicion=Esporangio_agrupacion_posicion_Porcion_apical_fertil     100      50  1.282051 0.0256410256  2.231606
+Rizoma_Proteccion_externa=Bases_peciolares_persistentes                                   0       0 82.051282 0.0303030303 -2.166107
+Esporangios_Tipo_hoja=Monomorfica                                                         0       0 87.179487 0.0149850150 -2.432741
+Rizoma_Anatomia_estela=Dictiostela                                                        0       0 91.025641 0.0069930070 -2.697177
+Habitat=Terrestre                                                                         0       0 93.589744 0.0033300033 -2.935510
+Rizoma_posicion=Epigeo                                                                    0       0 93.589744 0.0033300033 -2.935510
+Esporangios_organizacion=Esporangios_organizacion_Soros                                   0       0 94.871795 0.0019980020 -3.090529
+
+> print(especies_cluster)
+                        Nombre Cluster
+1             Metaxya_elongata       4
+2             Metaxya_parkerii       4
+3        Plagiogyria_pectinata       3
+4          Loxsomopsis_pearcei       4
+5        Dicksonia_karsteniana       1
+6     Lophosoria_quadripinnata       4
+7           Culcita_coniifolia       4
+8   Sphaeropteris_quindiuensis       1
+9           Alsophila_erinacea       1
+10             Cyathea_horrida       1
+11       Cyathea_bipinnatifida       1
+12           Cyathea_conjugata       1
+13        Cyathea_lockwoodiana       1
+14              Cyathea_andina       1
+15             Cyathea_pungens       1
+16           Cyathea_divergens       1
+17    Cyathea_longipetiolulata       1
+18              Cyathea_patens       1
+19             Cyathea_frigida       1
+20            Cyathea_delgadii       1
+21          Cyathea_lindeniana       1
+22           Cyathea_squamipes       1
+23            Cyathea_frondosa       1
+24             Cyathea_ebenina       1
+25          Cyathea_meridensis       1
+26             Cyathea_oblonga       1
+27               Cyathea_pacis       1
+28           Danaea_moritziana       5
+29           Eupodium_pittieri       5
+30             Osmunda_regalis       6
+31    Osmundastrum_cinnamomeum       6
+32          Acrostichum_aureum       3
+33    Acrostichum_danaeifolium       3
+34              Pteris_tremula       3
+35              Pteris_deflexa       3
+36            Pteris_albertiae       3
+37       Pteris_muricatopedata       3
+38             Pteris_biaurita       3
+39            Pteris_haenkeana       3
+40           Pteris_podophylla       3
+41            Pteris_propinqua       3
+42         Lomariocycas_aurata       2
+43   Lomariocycas_schomburgkii       3
+44     Neoblechnum_brasiliense       3
+45  Austroblechnum_lherminieri       3
+46 Macrothelypteris_torresiana       4
+47           Amauropelta_rudis       2
+48       Diplazium_roemerianum       2
+49          Diplazium_nervosum       2
+50        Diplazium_lindbergii       2
+51             Diplazium_hians       2
+52          Diplazium_expansum       2
+53         Diplazium_bogotense       2
+54      Diplazium_striatastrum       2
+55          Diplazium_striatum       2
+56      Dryopteris_wallichiana       2
+57           Dryopteris_patula       2
+58        Megalastrum_andicola       2
+59   Megalastrum_pulverulentum       2
+60       Megalastrum_galeottii       2
+61      Megalastrum_subincisum       2
+62         Cyathea_tungurahuae       1
+63           Cyathea_tryonorum       1
+64           Cyathea_straminea       1
+65         Cyathea_rodriguezii       1
+66            Cyathea_planadae       1
+67           Cyathea_petiolata       1
+68         Cyathea_myosuroides       1
+69          Cyathea_microdonta       1
+70      Cyathea_leucolepismata       1
+71           Cyathea_lasiosora       1
+72        Cyathea_klotzschiana       1
+73            Cyathea_decorata       1
+74         Cyathea_brunnescens       1
+75       Cheilanthes_marginata       4
+76            Pellaea_sagitata       4
+77          Pellaea_ternifolia       4
+78       Woodsia_montevidensis       2
